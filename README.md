@@ -20,20 +20,8 @@ ShopMmo là một nền tảng thương mại điện tử chuyên biệt dành 
 
 - Quản lý sản phẩm (tài khoản, key bản quyền, dịch vụ)
 - Thanh toán tự động qua ngân hàng (ACB, Vietcombank, MBBank, BIDV, Vietinbank...)
-- Giao dịch tự động hoá bằng cronjob
+- Giao dịch tự động hoá bằng websocket
 - Quản lý đơn hàng, người dùng, báo cáo vi phạm
 - Booking thuê Apple ID, bảo hành tự động
-- Quản trị CMS: bài viết, danh mục, thẻ nạp
+- Quản trị CMS: bài viết, danh mục, thẻ nạp, ...
 - Dashboard thống kê doanh thu, hoạt động người dùng
-
----
-
-## Cài Đặt
-
-```bash
-git clone https://github.com/buithienban/shopmmo.git
-cd shopmmo
-cp .env.example .env
-composer install
-php artisan key:generate
-php artisan migrate --seed
