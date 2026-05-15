@@ -98,7 +98,7 @@ Admin có toàn quyền quản lý qua prefix `/tb-admin`
 
 ### 3.1. Yêu cầu máy chủ
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - MySQL >= 5.7 hoặc MariaDB >= 10.2
 - Node.js (nếu cần compile frontend)
